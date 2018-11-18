@@ -1,3 +1,4 @@
+<!-- название файла просто inner.html -->
 <!DOCTYPE html>
 <html lang="ru">
   <head>
@@ -5,6 +6,7 @@
     <title>HTML Academy: Седона</title>
   </head>
   <body>
+    <!-- тоже самое, что на главной -->
     <header class="main-header">
       <nav class="main-navigation">
         <a class="main-header-logo">
@@ -18,6 +20,7 @@
         </ul>
       </nav>
     </header>
+    
     <main class="container">
       <h2 class="visually-hidden">Фильтр гостиниц</h2>
       <!--заголовок h2?-->
@@ -27,6 +30,29 @@
         <section class="found-hotels">
       <h2 class="page-title" class="visually-hidden">Поиск гостиницы</h2>
         <ul class="hotels-list">
+          <!-- каждый LI мы можем поделить на 3 части - картинки\информацию\рейтинг--
+          <!-- figure.hotels-photo с картринкой и она не ссылка-->
+             <!-- img -->
+          <!-- /figure-->
+          <!-- div.hotels-info -->
+            <h3>
+              <a href="catalog-hotel-amara.html">amara resort & spa</a>
+            </h3>
+            <!-- тут идет 2 колонки, в первой гостинца и 1 кнопка, во второй цена и 2ая кнопка, но мы им даем общего родителя для дальнейшей ситилиации подсеток-->
+            <!-- div.hotels-info-column -->
+               <span class="hotels-text-type">гостиница</span> 
+              <a class="hotels-button">Забронировать</a>
+            <!-- /div. --> 
+            <!-- тут вторая колонка по аналогии -->
+          <!-- закрываем div hotels-info -->
+          <!-- div.hotels-rating -->
+            <!-- тут должен быть списол , где каждая li - 1 звезда -->
+            <!-- span с суммарным рейтингом -->
+          <!-- /div -->
+        </li>  
+        <!-- остальные Li -->
+          
+          
           <li class="catalog-item">
             <h3><a href="catalog-item.html">
               <span class="catalog-category">Гостиница</span>
