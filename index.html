@@ -8,14 +8,14 @@
   <body>
     <header class="main-header">
       <nav class="main-navigation">
-        <!-- где форматирование кода? почему не показано визуально, что Img вложен в a ? 
-            Почему тег Img не закрыт -->
+        <!-- где форматирование кода? почему не показано визуально, что Img вложен в a ?
+        Почему тег Img не закрыт -->
         <a class="main-header-logo">
-        <img src="logo" alt="логотип город Седона"
+          <img src="logo" alt="логотип город Седона">
         </a>
         <ul class="site-navigation">
 
-        <!-- текст внутри навигации нужно писать в нижнем регистре -->
+          <!-- текст внутри навигации нужно писать в нижнем регистре -->
           <li><a href="info.html">информацияя</a></li>
           <li><a href="media.html">фото и видео</a></li>
           <li><a href="map.html">карта штата</a></li>
@@ -28,35 +28,37 @@
 
     <main class="container">
       <!-- лучше всем секциям давать классы -->
-    <section>
-      <h1 class="visually-hidden">город седона</h1>
-      <img src="welcome" alt="welcome to the gorgeous Sedona">
-    </section>
-      
+      <section class="introduction">
+        <h1 class="visually-hidden">город седона</h1>
+        <img src="welcome" alt="welcome to the gorgeous Sedona">
+      </section>
+
       <!-- не сделала отдельную секцию -->
       <!-- секция для текстов заманухи -->
-       <p>Седона-небольшой городок в Аризоне,<BR>заслуживающий большего!</P>
-       <p>рассотрим 5 причин,по которым Седона круче,чем гранд каньон!</p>
+      <section class="attraction"
+        <p>Седона-небольшой городок в Аризоне,<BR>заслуживающий большего!</P>
+        <p>рассотрим 5 причин,по которым Седона круче,чем гранд каньон!</p>
+      </section>
       <!-- конец этой секции -->
 
-     <section class="advantages">
-      <h2 class="visually-hidden">преимущества</h2>
-       <ul class="advantages-list">
-         <li class="feature-item">
-           <!-- заголовок тоже в диве должен быть -->
-           <h3>настоящий городок</h3>
-           <div>
-             <p>№1</p>
-             <p>седона-не аттракцион для туристов,<br>там течет своя жизнь</p>
-           </div>
-           <!-- внутри Img не нужно, а если и ставишь его - так закрывай тег -->
-           <figure>
-             <img src="#"
-           </figure>
-         </li>
-          
-         <!-- это задание необязательно сейчас, по этому не считаю всё что ниже ошибкой -->
-           
+      <section class="advantages">
+        <h2 class="visually-hidden">преимущества</h2>
+        <ul class="advantages-list">
+          <li class="feature-item">
+            <!-- заголовок тоже в диве должен быть -->
+            <div>
+              <h3>настоящий городок</h3>
+              <p>№1</p>
+              <p>седона-не аттракцион для туристов,<br>там течет своя жизнь</p>
+            </div>
+            <!-- внутри Img не нужно, а если и ставишь его - так закрывай тег -->
+            <figure>
+
+            </figure>
+          </li>
+
+          <!-- это задание необязательно сейчас, по этому не считаю всё что ниже ошибкой -->
+
          <li class="feature-item">
              <section class="services">
            <h2 class="visually-hidden">Услуги</h2>
@@ -91,13 +93,13 @@
 
          <!-- про мост идетпо порядку не 2ым элемнтом, сделать нужно так же с картинкой -->
          <li class="feature-item">
-           <h3>там есть мост дьявола</h3>
            <div>
-           <p>№2</p>
-           <p>да,по нему можно пройти!если конечно вы осмелитесь</p>
+             <h3>там есть мост дьявола</h3>
+             <p>№2</p>
+             <p>да,по нему можно пройти!если конечно вы осмелитесь</p>
            </div>
            <figure>
-             <img src="#"
+
            </figure>
          </li>
 
@@ -105,31 +107,29 @@
          <li class="feature-item">
            <ul>
              <li>
-             <h3>небольшая площадь</h3>
-           <div>
-             <p>№3</p>
-           <p>все достопримечательности находятся близко</p>
-           </div>
-         </li>
-         <li>
-           <h3>красивая дорога</h3>
-           <p>№4</p>
-           <p>ехать в седону из лас-вегаса совсем<br>не скучно!</p>
-         </li>
-         <li>
-           <h3>мало туристов</h3>
-           <p>№5</p>
-           <p>большинство едет в гранд каньон<br>и толпится там</p>
-         </li>
-         </ul>
+               <h3>небольшая площадь</h3>
+               <p>№3</p>
+               <p>все достопримечательности находятся близко</p>
+             </li>
+             <li>
+               <h3>красивая дорога</h3>
+               <p>№4</p>
+               <p>ехать в седону из лас-вегаса совсем<br>не скучно!</p>
+             </li>
+             <li>
+               <h3>мало туристов</h3>
+               <p>№5</p>
+               <p>большинство едет в гранд каньон<br>и толпится там</p>
+             </li>
+           </ul>
          </section>
          <!-- и где блок про жилье еда и тд ? -->
 
 
-      <!-- а вот он, а должен быть в feature-item. тоесть список в списке -->
-     <!--section class="services">
-       <h2 class="visually-hidden">Услуги</h2>
-       <ul class="services-list">
+         <!-- а вот он, а должен быть в feature-item. тоесть список в списке -->
+         <!--section class="services">
+         <h2 class="visually-hidden">Услуги</h2>
+         <ul class="services-list">
          <li class="services-item">
          <h3>жилье</h3>
 
@@ -146,35 +146,35 @@
          <p>не только китайского,но и местного<br>производства!</p>
          </li>
          </ul>
-     </section> -->
+       </section> -->
 
-     <section class="search-hotels">
-       <h2>заинтересовались?</h2>
-       <p>укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в седоне</p>
-       <!-- и тут еще должна быть button поиска -->
-       <a class="button" href="#">Найти</a>
-       <!--код для поиска-->
-     </section>
-   </main>
+       <section class="search-hotels">
+         <h2>заинтересовались?</h2>
+         <p>укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в седоне</p>
+         <!-- и тут еще должна быть button поиска -->
+         <a class="button" href="#">Найти</a>
+         <!--код для поиска-->
+       </section>
+     </main>
 
-   <footer class="main-footer">
-     <!-- без ссылки -->
+     <footer class="main-footer">
+       <!-- без ссылки -->
 
-      <p class="hashtag">#VISITSEDONA</p>
+       <p class="hashtag">#VISITSEDONA</p>
 
-     <!-- список, а не div -->
+       <!-- список, а не div -->
 
-     <ul class="footer-social">
-       <li><a class="social-button" href="#">Вконтакте</a></li>
-       <li><a class="social-button" href="#">Фейсбук</a></li>
-       <li><a class="social-button" href="#">Инстаграм</a></li>
-     </ul>
-     <!-- формаьтирование -->
-     <p class="footer-copyright">
-        <b>website by</b>
-        <a class="button" href="https://htmlacademy.ru">HTML Academy</a>
-      </p>
-   </footer>
+       <ul class="footer-social">
+         <li><a class="social-button" href="#">Вконтакте</a></li>
+         <li><a class="social-button" href="#">Фейсбук</a></li>
+         <li><a class="social-button" href="#">Инстаграм</a></li>
+       </ul>
+       <!-- формаьтирование -->
+       <p class="footer-copyright">
+         <b>website by</b>
+         <a class="button" href="https://htmlacademy.ru">HTML Academy</a>
+       </p>
+     </footer>
 
-  </body>
+   </body>
 </html>
