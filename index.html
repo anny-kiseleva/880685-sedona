@@ -142,10 +142,34 @@
        </section> -->
 
        <section class="search-hotels">
-         <h2>заинтересовались?</h2>
+         <h2>поиск гостиницы в седоне</h2>
+         <p>заинтересовались?</p>
          <p>укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в седоне</p>
+         <form class="search-form" action="" method="post">
+           <p class="search-item">
+             <label for="arrival-date">дата заезда</label>
+             <input id="arrival-date" type="text" name="arrival" placeholder="24.04.2017">
+           </p>
+           <p class="search-item">
+             <label for="departure-date">дата выезда</label>
+             <input id="departure-date" type="text" name="departure" placeholder="04.07.2017">
+           </p>
+           <p class="search-item">
+             <label for="number-of-adults">взрослые</label>
+             <input id="number-of-adults" type="number" name="adults" placeholder="2">
+           </p>
+           <p class="search-item">
+             <label for="number-of-children">дети</label>
+             <input id="number-of-children" type="number" name="adults" placeholder="0">
+           </p>
+           <button class="button" type="submit">найти</button>
+         </form>
+
          <a class="button" href="#">Найти</a>
        </section>
+
+
+
      </main>
 
      <footer class="main-footer">
