@@ -1,4 +1,3 @@
-<!-- и название файла должно быть просто index.html -->
 <!DOCTYPE html>
 <html lang="ru">
   <head>
@@ -9,7 +8,6 @@
     <header class="main-header">
       <nav class="main-navigation">
         <a class="main-header-logo">
-          <!-- напиши корректный путь к картинке -->
           <img src="logo-sedona.svg" width="140" height="72"alt="логотип город Седона">
         </a>
         <ul class="site-navigation">
@@ -21,13 +19,10 @@
       </nav>
     </header>
 
-    <!-- ВСЕ ТЕКСТА ДОЛЖНЫ БЫТЬ В НИЖНЕМ РЕГИСТРЕ. -->
-
     <main class="container">
-      <!-- лучше всем секциям давать классы -->
+
       <section class="introduction">
         <h1 class="visually-hidden">город седона</h1>
-        <!-- background-photo будет вставлять через css фоновым изображением, polygon-background-photo тоже. так что нужно убрать отсюда -->
         <img src="welcome.png" width="459" height="353" alt="welcome to the gorgeous Sedona">
       </section>
 
@@ -35,7 +30,6 @@
         <p>Седона-небольшой городок в Аризоне,<BR>заслуживающий большего!</P>
         <p>рассотрим 5 причин,по которым Седона круче,чем гранд каньон!</p>
       </section>
-      <!-- конец этой секции -->
 
       <section class="advantages">
         <h2 class="visually-hidden">преимущества</h2>
@@ -51,11 +45,6 @@
             </figure>
           </li>
           <li class="feature-item">
-            <!-- что тут с форматированием ?? -->
-            
-            <!-- тут h2.visually-hidden лишний -->
-            <!-- не забудь потом поубирать figure, где он не нужен -->
-            <h2 class="visually-hidden">Услуги</h2>
             <ul class="services">
               <li class="services-item">
                 <h3>жилье</h3>
@@ -63,26 +52,14 @@
               </li>
               <li class="services-item">
                 <h3>еда</h3>
-                <!--здесь будет картинка?-->
-                <figure>
-                  <img src="#">
-                </figure>
                 <p>всегда заказывайте фирменный бургер,<br>вы не разочаруетесь!</p>
               </li>
               <li class="services-item">
                 <h3>сувениры</h3>
-                <!--здесь будет картинка?-->
-                <figure>
-                  <img src="#">
-                </figure>
                 <p>не только китайского,но и местного<br>производства!</p>
               </li>
             </ul>
-            <!-- как у закрывающегося тега может быть класс? класс пишется только у открывающегося -->
           </li>
-          <!-- где закрывающиеся теги? из-за плохого форматирования ничего не понятно -->
-
-
 
           <li class="feature-item">
             <div>
@@ -96,7 +73,6 @@
           </li>
 
           <li class="feature-item">
-            <!-- почему в аналогичном блоке выше используюшье секшен, потом список, тут сразу список? Сделай единообразно. Лучше сразу список без секшена дополнительного -->
             <ul>
               <li>
                 <h3>небольшая площадь</h3>
@@ -117,66 +93,42 @@
           </li>
         </ul>
       </section>
-         <!-- и где блок про жилье еда и тд ? -->
 
+      <section class="search-hotels">
+        <!--можно убрать h2?-->
+        <h2>поиск гостиницы в седоне</h2>
+        <p>заинтересовались?</p>
+        <p>укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в седоне</p>
+        <button class="button" type="submit">поиск гостиницы в седоне</button>
 
-         <!-- а вот он, а должен быть в feature-item. тоесть список в списке -->
-         <!--section class="services">
-         <h2 class="visually-hidden">Услуги</h2>
-         <ul class="services-list">
-         <li class="services-item">
-         <h3>жилье</h3>
-
-         <p>рекомендуем пожить в настоящем<br>мотеле,всё как в кино!</p>
-         </li>
-         <li class="services-item">
-         <h3>еда</h3>
-         <
-         <p>всегда заказывайте фирменный бургер,<br>вы не разочаруетесь!</p>
-         </li>
-         <li class="services-item">
-         <h3>сувениры</h3>
-
-         <p>не только китайского,но и местного<br>производства!</p>
-         </li>
-         </ul>
-       </section> -->
-
-       <section class="search-hotels">
-         <h2>поиск гостиницы в седоне</h2>
-         <p>заинтересовались?</p>
-         <p>укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в седоне</p>
-         <!-- где делась кнопка, точнее ссылка, поиск гостинницы в седоне ? -->
-         
-         <!-- обверни в див -->
-         <form class="search-form" action="" method="post">
-           <p class="search-item">
-             <label for="arrival-date">дата заезда</label>
-             <input id="arrival-date" type="text" name="arrival" placeholder="24.04.2017">
-             <!-- ссылка с календарем где ? -->
-           </p>
-           <p class="search-item">
-             <label for="departure-date">дата выезда</label>
-             <input id="departure-date" type="text" name="departure" placeholder="04.07.2017">
-             <!-- ссылка с календарем где ? -->
+        <div>
+          <form class="search-form" action="" method="post">
+            <p class="search-item">
+              <label for="arrival-date">дата заезда</label>
+              <input id="arrival-date" type="text" name="arrival" placeholder="24.04.2017">
+              <a href="calendar.html"></a>
+            </p>
+            <p class="search-item">
+              <label for="departure-date">дата выезда</label>
+              <input id="departure-date" type="text" name="departure" placeholder="04.07.2017">
+              <a href="calendar.html"></a>
            </p>
            <p class="search-item">
              <label for="number-of-adults">взрослые</label>
-             <!-- кнопка -->
+             <button>-</button>
              <input id="number-of-adults" type="number" name="adults" placeholder="2">
-             <!-- еще одна кнопка -->
+             <button>+</button>
            </p>
            <p class="search-item">
              <label for="number-of-children">дети</label>
+             <button>-</button>
              <input id="number-of-children" type="number" name="adults" placeholder="0">
+             <button>+</button>
            </p>
            <button class="button" type="submit">найти</button>
          </form>
-         <!-- Закрой div -->
-          
-         <!-- Это что за еще один найти? -->
-         <a class="button" href="#">Найти</a>
-       </section>
+       </div>
+     </section>
 
 
 
