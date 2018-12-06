@@ -1,0 +1,177 @@
+body {
+  margin: 0;
+
+  font-family: "PTSans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+
+  background-color: #ffffff;
+  background-image: url("img/background-photo.jpg");
+  background-position: top center;
+  background-size:?
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button-search {
+  font: inherit;
+
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+
+  background-color: #766357;
+  border: none;
+}
+
+.button-search:hover,
+.button-search:focus,
+.button-search:active {
+  background-color: #604e43;
+}
+
+.button-find {
+  font: inherit;
+
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+
+  background-color: #81b3d2;
+  border: none;
+}
+
+.button-find:hover,
+.button-find:focus,
+.button-find:active {
+  background-color: #669ec0;
+}
+.main-navigation {
+  font-size: 14px;
+  line-height: 26px;
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+.site-navigation {
+  list-style: none;
+}
+
+.site-navigation a {
+  color: #000000;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+  color: #81b3d2;
+}
+
+.attraction {
+  text-align: center;
+}
+
+.attraction-title h2 {
+  font-size:21px;
+  line-height: 26px;
+}
+
+.attraction-text p{
+  font-size:14px;
+  line-height: 26px;
+  font-weight: regular;
+}
+
+.advantages-list {
+  list-style: none;
+}
+
+.advantages-item {
+  text-align: center;
+}
+
+.advantages-item h3 {
+  font-size:21px;
+  line-height: 21px;
+}
+
+.advantages-item p{
+  font-size:14px;
+  line-height: 21px;
+  font-weight: regular;
+}
+
+.services-item {
+  text-align: center;
+}
+
+.services-item h3 {
+  font-size:21px;
+  line-height: 21px;
+}
+
+.services-item p{
+  font-size:14px;
+  line-height: 21px;
+  font-weight: regular;
+}
+
+.search-hotels {
+  text-align: center;
+}
+
+.search-hotels-title h2 {
+  font-size:30px;
+  line-height: 36px;
+}
+
+.search-hotels-text p{
+  font-size:14px;
+  line-height: 24px;
+  font-weight: regular;
+}
+
+.search-form input {
+  font: inherit;
+
+  background-color: #f2f2f2;
+  border: none
+}
+
+.search-form input:focus {
+  background-color: #ebebeb;
+  border: none
+}
+
+.main-footer {
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+.footer-social ul {
+  list-style: none;
+}
+
+.hashtag {
+  font-size:21px;
+  line-height: 26px;
+}
+
+.footer-copyright-text {
+  font-size:14px;
+  line-height: 26px;
+  font-weight: regular;
+}
+
+.footer-copyright {
+  text-align: center;
+}

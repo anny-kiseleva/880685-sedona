@@ -3,6 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
   </head>
   <body>
     <header class="main-header">
@@ -17,7 +21,6 @@
           <li><a href="hotels.html">гостиницы</a></li>
         </ul>
       </nav>
-      <link href="css/style.css" rel="stylesheet">
     </header>
 
     <main class="container">
@@ -28,14 +31,14 @@
       </section>
 
       <section class="attraction"
-        <p>Седона-небольшой городок в Аризоне,<BR>заслуживающий большего!</P>
-        <p>рассотрим 5 причин,по которым Седона круче,чем гранд каньон!</p>
+        <h2 class="attraction-title">Седона-небольшой городок в Аризоне,<BR>заслуживающий большего!</h2>
+        <p class="attraction-text">рассотрим 5 причин,по которым Седона круче,чем гранд каньон!</p>
       </section>
 
       <section class="advantages">
         <h2 class="visually-hidden">преимущества</h2>
         <ul class="advantages-list">
-          <li class="feature-item">
+          <li class="advantages-item">
             <div>
               <h3>настоящий городок</h3>
               <p>№1</p>
@@ -45,7 +48,7 @@
               <img src="#">
             </figure>
           </li>
-          <li class="feature-item">
+          <li class="advantages-item">
             <ul class="services">
               <li class="services-item">
                 <h3>жилье</h3>
@@ -62,7 +65,7 @@
             </ul>
           </li>
 
-          <li class="feature-item">
+          <li class="advantages-item">
             <div>
               <h3>там есть мост дьявола</h3>
               <p>№2</p>
@@ -73,7 +76,7 @@
             </figure>
           </li>
 
-          <li class="feature-item">
+          <li class="advantages-item">
             <ul>
               <li>
                 <h3>небольшая площадь</h3>
@@ -96,11 +99,9 @@
       </section>
 
       <section class="search-hotels">
-        <!--можно убрать h2?-->
-        <h2>поиск гостиницы в седоне</h2>
-        <p>заинтересовались?</p>
-        <p>укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в седоне</p>
-        <button class="button" type="submit">поиск гостиницы в седоне</button>
+        <h2 class="search-hotels-title">заинтересовались?<h2>
+        <p class="search-hotels-text">укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в седоне</p>
+        <button class="button-search" type="submit">поиск гостиницы в седоне</button>
 
         <div>
           <form class="search-form" action="" method="post">
@@ -116,22 +117,20 @@
            </p>
            <p class="search-item">
              <label for="number-of-adults">взрослые</label>
-             <button>-</button>
+             <button class="minus">-</button>
              <input id="number-of-adults" type="number" name="adults" placeholder="2">
-             <button>+</button>
+             <button class="plus">+</button>
            </p>
            <p class="search-item">
              <label for="number-of-children">дети</label>
-             <button>-</button>
+             <button class="minus">-</button>
              <input id="number-of-children" type="number" name="adults" placeholder="0">
-             <button>+</button>
+             <button class="plus>+</button>
            </p>
-           <button class="button" type="submit">найти</button>
+           <button class="button-find" type="submit">найти</button>
          </form>
        </div>
      </section>
-
-
 
      </main>
 
@@ -155,7 +154,7 @@
          </li>
        </ul>
        <p class="footer-copyright">
-         <b>website by</b>
+         <b class="footer-copyright-text">website by</b>
          <a class="button" href="https://htmlacademy.ru">
            <img src="logo-html.svg" width="115" height="41" alt="html academy">
          </a>
