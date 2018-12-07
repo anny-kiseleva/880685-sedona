@@ -151,6 +151,58 @@ a {
   border: none
 }
 
+.hotels-list {
+  list-style: none;
+}
+
+.catalog-item {
+  background-color: #ffffff;
+  box-shadow: none;
+}
+
+.catalog-item a {
+  color: #000000;
+}
+
+.catalog-item h3 {
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.hotels-text-type {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: regular;
+}
+
+.hotels-price {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: regular;
+}
+
+.hotels-button-book {
+  line-height: 21px;
+  color: #ffffff;
+  
+  background-color: #81b3d2;
+}
+
+.hotels-button-detailed {
+  line-height: 21px;
+  color: #ffffff;
+
+  background-color: #766357;
+}
+
+.rating-text{
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: regular;
+
+  background-color: #f2f2f2;
+}
+
 .main-footer {
   color: #000000;
 
