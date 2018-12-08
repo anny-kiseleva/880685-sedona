@@ -11,7 +11,7 @@ body {
   background-color: #ffffff;
   background-image: url("img/background-photo.jpg");
   background-position: top center;
-  background-size:?
+  background-size:cover;
   background-repeat: no-repeat;
 }
 
@@ -87,7 +87,7 @@ a {
 .attraction-text p{
   font-size:14px;
   line-height: 26px;
-  font-weight: regular;
+  font-weight: 400;
 }
 
 .advantages-list {
@@ -106,7 +106,7 @@ a {
 .advantages-item p{
   font-size:14px;
   line-height: 21px;
-  font-weight: regular;
+  font-weight: 400;
 }
 
 .services-item {
@@ -121,7 +121,7 @@ a {
 .services-item p{
   font-size:14px;
   line-height: 21px;
-  font-weight: regular;
+  font-weight: 400;
 }
 
 .search-hotels {
@@ -136,7 +136,7 @@ a {
 .search-hotels-text p{
   font-size:14px;
   line-height: 24px;
-  font-weight: regular;
+  font-weight: 400;
 }
 
 .search-form input {
@@ -172,19 +172,19 @@ a {
 .hotels-text-type {
   font-size: 14px;
   line-height: 21px;
-  font-weight: regular;
+  font-weight: 400;
 }
 
 .hotels-price {
   font-size: 14px;
   line-height: 21px;
-  font-weight: regular;
+  font-weight: 400;
 }
 
 .hotels-button-book {
   line-height: 21px;
   color: #ffffff;
-  
+
   background-color: #81b3d2;
 }
 
@@ -198,7 +198,7 @@ a {
 .rating-text{
   font-size: 14px;
   line-height: 21px;
-  font-weight: regular;
+  font-weight: 400;
 
   background-color: #f2f2f2;
 }
@@ -221,7 +221,7 @@ a {
 .footer-copyright-text {
   font-size:14px;
   line-height: 26px;
-  font-weight: regular;
+  font-weight: 400;
 }
 
 .footer-copyright {
