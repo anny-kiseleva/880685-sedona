@@ -227,3 +227,103 @@ a {
 .footer-copyright {
   text-align: center;
 }
+
+/*Сеточные стили*/
+
+header {
+  width: 1200px;
+  margin: 0;
+  padding: 0;
+
+  outline-color: #fcacf8;
+}
+
+body {
+  width: 1200px;
+  margin: 0;
+  padding: 0;
+
+  outline-color: #9696ff;
+}
+
+footer {
+  width: 1200px;
+  margin: 0;
+  padding: 0;
+
+  outline-color: #a8ffa4;
+}
+
+.main-header-logo {
+  order:?;
+  width: 140px;
+  height: 72px;
+}
+
+.main-navigation-wrapper {
+  width: 100%;
+  justify-content: space-between;
+
+  background-color: #ffffff;
+}
+
+.site-navigation {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.main-navigation {
+  display: flex;
+  flex-direction: column;
+}
+
+.introduction {
+  justify-content: center;
+}
+
+.attraction {
+  justify-content: center;
+}
+
+.search-hotels-wrapper {
+  justify-content: center;
+}
+
+.search-form-wrapper{
+  width: 568px;
+  justify-content: center;
+}
+
+.footer-contacts {
+  margin: 0;
+}
+
+.footer-social {
+  margin: 0;
+}
+
+.footer-copyright {
+  margin: 0;
+}
+
+.main-footer {
+  padding: ?px 0;
+}
+
+.main-footer .container {
+  display: flex;
+}
+
+.hashtag {
+flex-grow:1;
+}
+
+.footer-social {
+flex-grow:1;
+}
+
+.footer-copyright {
+flex-grow:1;
+}
