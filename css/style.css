@@ -230,29 +230,25 @@ a {
 
 /*Сеточные стили*/
 /* почему сеточыне стили отдельно? они должны быть вместе с шрифтовыми свойствами, если они есть */
-header {
-  /* так как у нашего контейнера уже будет ширина, то для хедера не надо ее еще раз давать. он и так будет тянуться на всю ширину
-  и зачем ты скидываешь тут паддинг и маргин????? в остальных местах аналогично */
+
+
+.page-container {
   width: 1200px;
-  margin: 0;
-  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
 
   outline-color: #fcacf8;
 }
 
-body {
-  width: 1200px;
-  margin: 0;
-  padding: 0;
+header {
+  outline-color: #fcacf8;
+}
 
+body {
   outline-color: #9696ff;
 }
 
 footer {
-  width: 1200px;
-  margin: 0;
-  padding: 0;
-
   outline-color: #a8ffa4;
 }
 
@@ -262,70 +258,44 @@ footer {
   height: 72px;
 }
 
-.main-navigation-wrapper {
-  width: 100%;
-  justify-content: space-between;
-
-  background-color: #ffffff;
-}
-
 .site-navigation {
-  margin: 0;
-  padding: 0;
-
-  list-style: none;
-}
-
-.main-navigation {
-  display: flex;
-  flex-direction: column;
+  display:flex;
+  justify-content: space-between;
 }
 
 .introduction {
+  display:flex;
   justify-content: center;
+  align-items: center;
+
+  background-image: url("img/background-photo.jpg");
 }
 
 .attraction {
-  justify-content: center;
+  width: 636,65;
+  margin:0 auto;
 }
 
-.search-hotels-wrapper {
-  justify-content: center;
+.search-hotels{
+  width: 636,65;
+  margin:0 auto;
 }
 
-.search-form-wrapper{
+.search-form-wrapper {
   width: 568px;
+}
+
+div .search-item-wrapper {
+  display:flex;
   justify-content: center;
+
 }
 
-.footer-contacts {
-  margin: 0;
+.main-footer{
+  display:flex;
+  justify-content: space-between;
 }
 
-.footer-social {
-  margin: 0;
-}
-
-.footer-copyright {
-  margin: 0;
-}
-
-.main-footer {
-  padding: ?px 0;
-}
-
-.main-footer .container {
-  display: flex;
-}
-
-.hashtag {
-flex-grow:1;
-}
-
-.footer-social {
-flex-grow:1;
-}
-
-.footer-copyright {
-flex-grow:1;
+.footer-social{
+  display:flex;
 }
