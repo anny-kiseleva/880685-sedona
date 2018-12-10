@@ -9,6 +9,7 @@ body {
   text-transform: uppercase;
 
   background-color: #ffffff;
+  /* в бади убери всё про картинку, она же е тут */
   background-image: url("img/background-photo.jpg");
   background-position: top center;
   background-size:cover;
@@ -231,6 +232,7 @@ a {
 /*Сеточные стили*/
 /* почему сеточыне стили отдельно? они должны быть вместе с шрифтовыми свойствами, если они есть */
 
+/* напиши нормально ouline, сейчас ты задала ему только цвет */
 
 .page-container {
   width: 1200px;
@@ -253,7 +255,6 @@ footer {
 }
 
 .main-header-logo {
-  order:?;
   width: 140px;
   height: 72px;
 }
@@ -267,16 +268,18 @@ footer {
   display:flex;
   justify-content: center;
   align-items: center;
-
+  /* Задай высоту, напиши правильный путь что бы появились картинки для бекгарунду и у имг в html */
   background-image: url("img/background-photo.jpg");
 }
 
 .attraction {
+  /* что это за значение? 1. оно без единиц измерения, НЕ должно быть дробным и оно должно тянуться тоже на 100% вообще */
   width: 636,65;
   margin:0 auto;
 }
 
 .search-hotels{
+  /* что это за значение? 1. оно без единиц измерения, НЕ должно быть дробным и оно должно тянуться тоже на 100% вообще */
   width: 636,65;
   margin:0 auto;
 }
@@ -285,6 +288,7 @@ footer {
   width: 568px;
 }
 
+/* плохой селектор, негодится */
 div .search-item-wrapper {
   display:flex;
   justify-content: center;
