@@ -269,8 +269,7 @@ footer {
   justify-content: center;
   align-items: center;
   height: 510px;
-  /* Задай высоту, напиши правильный путь что бы появились картинки для бекгарунду и у имг в html */
-  background-image: url(..img/background-photo.jpg);
+  background-image: url(../img/background-photo.jpg);
 }
 
 .attraction {
@@ -287,10 +286,10 @@ footer {
 
 .search-form-wrapper {
   width: 568px;
+  margin:0 auto;
 }
 
-/* плохой селектор, негодится */
-div .search-item-wrapper {
+.search-item-wrapper {
   display:flex;
   justify-content: center;
 
@@ -303,4 +302,18 @@ div .search-item-wrapper {
 
 .footer-social{
   display:flex;
+}
+
+.catalog-item {
+  display:flex;
+  justify-content:space-between;
+}
+
+.stars {
+  display:flex;
+}
+
+
+.hotels-rating {
+  margin-left: auto;
 }
