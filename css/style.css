@@ -239,19 +239,19 @@ a {
   margin-left: auto;
   margin-right: auto;
 
-  outline-color: #fcacf8;
+  outline: 2px solid #fbf660;
 }
 
 header {
-  outline-color: #fcacf8;
+  outline: 2px solid #fcacf8;
 }
 
 body {
-  outline-color: #9696ff;
+  outline: 2px solid #9696ff;
 }
 
 footer {
-  outline-color: #a8ffa4;
+  outline: 2px solid #a8ffa4;
 }
 
 .main-header-logo {
@@ -268,19 +268,20 @@ footer {
   display:flex;
   justify-content: center;
   align-items: center;
+  height: 510px;
   /* Задай высоту, напиши правильный путь что бы появились картинки для бекгарунду и у имг в html */
-  background-image: url("img/background-photo.jpg");
+  background-image: url(..img/background-photo.jpg);
 }
 
 .attraction {
   /* что это за значение? 1. оно без единиц измерения, НЕ должно быть дробным и оно должно тянуться тоже на 100% вообще */
-  width: 636,65;
+
   margin:0 auto;
 }
 
 .search-hotels{
   /* что это за значение? 1. оно без единиц измерения, НЕ должно быть дробным и оно должно тянуться тоже на 100% вообще */
-  width: 636,65;
+
   margin:0 auto;
 }
 
