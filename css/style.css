@@ -210,7 +210,7 @@ a {
   background-color: #ffffff;
 }
 
-.footer-social ul {
+.footer-social {
   list-style: none;
 }
 
@@ -261,7 +261,9 @@ footer {
 
 .site-navigation {
   display:flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
 }
 
 .introduction {
@@ -297,7 +299,7 @@ footer {
 
 .main-footer{
   display:flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .footer-social{
@@ -307,13 +309,34 @@ footer {
 .catalog-item {
   display:flex;
   justify-content:space-between;
+  outline: 2px solid #ea286c;
+}
+
+.hotels-list {
+  margin-top:0;
+  margin-bottom:0;
+  padding-left: 0;
 }
 
 .stars {
   display:flex;
-}
+  list-style: none;
+  margin-top:0;
+  margin-bottom:0;
 
+}
 
 .hotels-rating {
   margin-left: auto;
 }
+
+.hotels-info-wrapper {
+  display:flex;
+}
+
+.hotels-info-column {
+  margin: 7px ;
+}
+
+margin-top:0;
+margin-bottom:0;
