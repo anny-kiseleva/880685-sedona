@@ -13,13 +13,13 @@
       <header class="main-header">
         <nav class="main-navigation">
           <a class="main-header-logo">
-            <img src="logo-sedona.svg" width="140" height="72"alt="логотип город Седона">
+            <img src="img/logo-sedona.svg" width="140" height="72"alt="логотип город Седона">
           </a>
           <ul class="site-navigation">
-            <li><a href="info.html">информацияя</a></li>
-            <li><a href="media.html">фото и видео</a></li>
-            <li><a href="map.html">карта штата</a></li>
-            <li><a href="hotels.html">гостиницы</a></li>
+            <li class="site-navigation-item"><a href="info.html">информация</a></li>
+            <li class="site-navigation-item"><a href="media.html">фото и видео</a></li>
+            <li class="site-navigation-item third"><a href="map.html">карта штата</a></li>
+            <li class="site-navigation-item"><a href="hotels.html">гостиницы</a></li>
           </ul>
         </nav>
       </header>
@@ -105,6 +105,7 @@
         <button class="button-search" type="submit">поиск гостиницы в седоне</button>
         <div class="search-form-wrapper">
           <form class="search-form" action="" method="post">
+            <div class="search-item-date">
             <p class="search-item">
               <label for="arrival-date">дата заезда</label>
               <input id="arrival-date" type="text" name="arrival" placeholder="24.04.2017">
@@ -115,7 +116,8 @@
               <input id="departure-date" type="text" name="departure" placeholder="04.07.2017">
               <a href="calendar.html"></a>
             </p>
-            <div class="search-item-wrapper">
+          </div>
+            <div class="search-item-wrapper search-item-number">
               <p class="search-item">
                 <label for="number-of-adults">взрослые</label>
                 <button class="minus">-</button>

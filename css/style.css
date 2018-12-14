@@ -258,10 +258,19 @@ footer {
 
 .site-navigation {
   display:flex;
-  justify-content: space-around;
-  padding: 0;
+  justify-content: space-between;
+  padding-left: 73px;
+  padding-right: 73px;
   margin: 0;
   /* space-between, слева справа внутренние отспупы, элемнты занимаю по 20% ширины, 3 li автоматически оттлакивается влево от 2 li */
+}
+
+.site-navigation-item {
+  width: 20%;
+}
+
+.site-navigation-item.third {
+  margin-left: auto;
 }
 
 .introduction {
@@ -272,22 +281,11 @@ footer {
   background-image: url(../img/background-photo.jpg);
 }
 
-.attraction {
- /* зачем тут маргны сбрасывать вообще? доавбить отспупы как в макете сверху снизу */
-
-  margin:0 auto;
-}
-
-.search-hotels{
-  /* зачем маргны? */
-
-  margin:0 auto;
-}
 
 .search-form-wrapper {
   width: 568px;
   margin:0 auto;
-}
+  }
 
 .search-item-wrapper {
   display:flex;
@@ -295,24 +293,54 @@ footer {
 
 }
 
+.search-form {
+  padding-top: 29px;
+  padding-bottom: 17px;
+  padding-left: 58px;
+  padding-right: 58px;
+}
+
+
+.search-item-date {
+  width: 341px;
+  height: 43px;
+}
+
+
+.search-item-number {
+  width: 114px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+
+.search-item {
+  display: flex;
+  margin: 0;
+}
+
+
 /* самой форме дать отступы, дать размеры инпутам, дать маргины между инпутами и лейблами */
 
 .main-footer{
   display:flex;
-  justify-content: space-around;
-  /* space-between, Отспупы внутренние добавить */
+  justify-content: space-between;
+  padding-left: 131px;
+  padding-right: 92px;
 }
 
 .footer-social{
   display:flex;
+  margin: 0;
+  padding: 0;
 }
 
 .catalog-item {
   display:flex;
   justify-content:space-between;
   outline: 2px solid #ea286c;
-  
-  /* слева, справа внутренние отступы */
+  padding-left: 73px;
+  padding-right: 73px;
 }
 
 .hotels-list {
@@ -326,7 +354,6 @@ footer {
   list-style: none;
   margin-top:0;
   margin-bottom:0;
-
 }
 
 .hotels-rating {
@@ -335,12 +362,54 @@ footer {
 
 .hotels-info-wrapper {
   display:flex;
+  width: 259px;
+  justify-content: space-between;
 }
 
-.hotels-info-column {
-  margin: 7px ;
-  /* почему там 7 пх? */
+/*дефолтные стили*/
+
+.attraction-title {
+  margin: 0;
+  padding: 0;
 }
 
-margin-top:0;
-margin-bottom:0;
+.attraction-text {
+  margin: 0;
+}
+
+.advantages-list {
+  margin: 0;
+  padding: 0;
+}
+
+.search-hotels-title {
+  margin: 0;
+}
+
+.search-hotels-text {
+  margin: 0;
+}
+
+.search-item {
+  margin: 0;
+}
+
+.hashtag {
+  margin: 0;
+}
+
+.footer-copyright {
+  margin: 0;
+}
+
+.hotels-text-type {
+  margin: 0;
+}
+
+.hotels-price {
+  margin: 0;
+}
+
+.rating-text {
+  margin: 0;
+}
