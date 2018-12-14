@@ -9,7 +9,7 @@ body {
   text-transform: uppercase;
 
   background-color: #ffffff;
-  /* в бади убери всё про картинку, она же е тут */
+  /* в бади убери всё про картинку, она же е тут ???????*/ 
   background-image: url("img/background-photo.jpg");
   background-position: top center;
   background-size:cover;
@@ -367,7 +367,7 @@ footer {
 }
 
 /*дефолтные стили*/
-
+/* сбрасывай только те, что нужно, а не одним значением*/
 .attraction-title {
   margin: 0;
   padding: 0;
